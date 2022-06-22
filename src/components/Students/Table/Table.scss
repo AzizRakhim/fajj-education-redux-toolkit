@@ -1,0 +1,24 @@
+.table-td{
+  justify-content: end;
+  .bx{
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+}
+
+.table-btn{
+  border: none;
+  background-color: transparent;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &:hover{
+    background-color: thistle;
+  }
+}
+
+.student__tdn{
+  text-decoration: none;
+}

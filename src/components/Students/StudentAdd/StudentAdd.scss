@@ -1,0 +1,81 @@
+.student-add{
+  margin-top: 20px;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.student-add__img-box{
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  max-height: 350px;
+}
+
+.student-add__title{
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.student-add__inner-img-box{
+  padding: 20px;
+  background-color: rgb(198, 195, 195);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .bx{
+    font-size: 100px;
+    color : rgb(138, 128, 128);
+    position: relative;
+  }
+}
+
+.student-add__borders{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &::before{
+    content: "";
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 3px solid rgb(138, 128, 128);
+    position: absolute;
+  }
+
+  &::after{
+    content: "";
+    display: inline-block;
+    width: 160px;
+    height: 160px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 1px solid rgb(138, 128, 128);
+    position: absolute;
+  }
+}
+
+.student-add__lists{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  padding-left: 50px;
+  margin-bottom: 50px;
+}
+
+.student-add__input-box{
+  margin-bottom: 10px;
+}
+
+.student-add__input{
+  width: 100%;
+  margin-bottom: 0;
+  max-width: 100%;
+}

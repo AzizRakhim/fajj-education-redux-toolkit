@@ -1,0 +1,27 @@
+.student{
+  padding: 40px;
+}
+
+.student__title{
+  margin-right: 20px;
+}
+
+.student__search-box{
+  background-color: #fff;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 10px 30px;
+
+  .bx{
+    font-size: 20px;
+    margin-right: 10px;
+  }
+}
+
+.student__input{
+  width: 100%;
+  border: none;
+
+  &:focus{
+    outline: none;
+  }
+}

@@ -1,0 +1,70 @@
+.student-edit{
+  background-color: #fff;
+  padding: 30px;
+}
+
+.student-edit__header{
+  padding-bottom: 50px;
+  border-bottom: 1px solid #f7f7f8;
+}
+
+.student-edit__img-box{
+  margin-right: 10px;
+
+  img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+}
+
+.student-edit__name{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.student-edit__number{
+  font-size: 18px;
+  color: #b0afbb;
+}
+
+.student-edit__stats{
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.student-edit__stats-num{
+  font-weight: normal;
+  margin-left: 5px;
+}
+
+.student-edit__list{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr)
+  ;
+  grid-gap: 40px;
+  padding-top: 30px;
+  margin-bottom: 30px;
+}
+
+.student-edit__input{
+  width: 100%;
+  border: none;
+  padding: 10px 0px;
+  border-bottom: 1px solid #e9e9f0;
+  margin-bottom: 0px;
+  font-weight: 600;
+  font-size: 18px;
+
+  &:focus{
+    outline: none;
+  }
+}
+
+.student-edit__label{
+  font-size: 12px;
+}
